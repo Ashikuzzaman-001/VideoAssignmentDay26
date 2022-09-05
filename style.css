@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #3498db;
+}
+.header-logo img{
+    width: 120px;
+}
+.primary-menu{
+
+}
+.primary-menu ul{
+margin-bottom: 0px;
+text-align: right;
+}
+.primary-menu ul li{
+display: inline-block;
+margin-left: -4px;
+}
+.primary-menu ul li a{
+display: block;
+color: aliceblue;
+padding:0 30px ;
+font-size: 20px;
+line-height: 72px;
+border-right: 1px solid #fff;
+}
+.primary-menu ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+.primary-menu ul li a:hover{
+
+}
+.banner{
+    background-image: url(./Img/2eb4ff0afdd5a606d06497e12c848832.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text h1{
+    display: inline-block;
+    background: rgb(95, 80, 80);
+    color: #fff;
+    border-radius: 5px;
+}
+.banner-text h2{
+    color: #fff;
+    background: rgb(49, 46, 46);
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.about{
+    background: #ecf0f1;
+}
+.services{
+    background-color: #f9f9f9;
+}
+.card span i{
+    background-color: #3498db;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px 0 5px 0;
+}
+img{
+    max-width:100% ;
+    margin-top: 20px;
+}
+.product-item p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+  
+}
+.product-right ul li{
+    background: #cccccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.product-right{
+    padding-left: 15px;
+}
+.footer{
+    background: #2c3e50;
+}
+.footer p{
+margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
